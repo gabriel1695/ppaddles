@@ -1,0 +1,212 @@
+
+.hero {
+  margin-top: 50px;
+  background-image: url("images/heroimg.jpg");
+  height: 520px;
+  max-width: 1250px;
+  background-color: black;
+  background-repeat:repeat;
+  background-position: center;
+  line-height: 70px;
+
+}
+
+.number {
+  color: tomato;
+}
+
+.photos {
+
+    list-style: none;
+    padding: 0;
+    margin: 10px 0px;
+    text-align: center;
+
+  }
+
+  .photos li {
+    display: inline;
+  }
+
+  .photos li img {
+    margin: 5px;
+    transition: all 300ms;
+  }
+
+  .photos li img:hover {
+    transform: scale(1.33) translateY(20px);
+    transition: transform 0.5s;
+  }
+
+  p {
+     font-family: karla; sans-serif;
+     font-size: 14px;
+     color: black;
+     line-height: 25px;
+
+
+  }
+
+  h1 {
+    font-family: pacifico, sans-serif;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+  }
+
+
+
+  h2 {
+    font-family: pacifico, sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+  }
+
+  h4 {
+    font-family: karla, sans-serif;
+    font-size: 30px;
+    margin: 15;
+    color: white;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: pacifico, sans-serif;
+    font-size: 45px;
+    color: grey;
+    text-align: center;
+  }
+
+  nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: white;
+   width: 1250px;
+   position: fixed;
+   top: 0;
+   background-color: black;
+   font-family: karla; sans-serif;
+   font-size: 14px;
+
+ }
+
+  .navigation ul {
+   font: bold 11px "Karla", Helvetica, Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   text-transform: uppercase;
+  }
+  .navigation li {
+   display: inline-block;
+  }
+  .navigation a {
+   background: black;
+   color: white;
+   padding: 7px 15px;
+   text-decoration: none;
+   transition: 0.3s;
+  }
+  .navigation a:hover {
+   color: black;
+   background: white;
+   border-radius: 10px;
+
+  }
+
+  .signup {
+   border: 0;
+   color: white;
+   padding: 10px;
+   font-size: 20px;
+   background-color: tomato;
+   border: 2px solid tomato;
+   transition: 0.3s;
+   border-radius: 15px;
+   position: absolute;
+   right:    45%;
+   bottom:   25%;
+   }
+
+  .signup:hover {
+    background: white;
+    color: tomato;
+    border: 2px solid tomato;
+    border-radius: 15px;
+
+  }
+
+.about {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+ .rentals {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px 30px 30px;
+
+ }
+
+ table, td, th {
+   font-family: karla; sans-serif;
+   font-size: 14px;
+   color: black;
+   line-height: 25px;
+   border: 1px solid #ddd;
+   text-align: left;
+}
+
+ .firstline {
+  background-color: lightgrey;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+ .herotext {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ }
+
+ footer {
+ display: flex;
+ justify-content: space-around;
+ flex-direction: row-reverse;
+ font-family: karla, sans-serif;
+ font-size: 10px;
+ color: grey;
+ text-align: left;
+ background-color: black;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: 200%;
+ line-height: 10px;
+ padding: 20px 20px 20px 20px;
+ }
+
+ .white {
+   color: white;
+ }
+
+ .icons {
+   display: flex;
+   justify-content:flex-end;
+ }
+ .location {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+ }
+
+ @media all and (min-width:960px max-width:1200px)
